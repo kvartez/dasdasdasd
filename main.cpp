@@ -16,7 +16,7 @@ int countstring(int num,int base,string find_= itoa(6,buff,10)){
     return count;
 }
 int countint(int num,int base ,int find=6){
-	int count;
+	int count = 0;
 	while(num){
 		if(num%base==find){
 			++count;
